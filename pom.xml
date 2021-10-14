@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>ishupal22</groupId>
+		<groupId>com.mulesoft.cs</groupId>
 		<artifactId>course-parent-pom</artifactId>
-		<version>1.0.1-RELEASE</version>
+		<version>1.0.0-RELEASE</version>
 	</parent>
 
-	<groupId>com.mycompany</groupId>
+	<groupId>com.mulesoft.cs</groupId>
 	<artifactId>catalog-exp-api</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
