@@ -8,7 +8,7 @@
 		<version>1.0.0-RELEASE</version>
 	</parent>
 
-	<groupId>com.mulesoft.cs</groupId>
+	<groupId>com.mycompany</groupId>
 	<artifactId>catalog-exp-api</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
@@ -19,7 +19,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<app.runtime>4.4.0</app.runtime>
-		<mule.maven.plugin.version>3.5.2</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -29,7 +28,6 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<extensions>true</extensions>
 				<configuration/>
-				<version>3.5.1</version>
 			</plugin>
 		</plugins>
 	</build>
@@ -43,7 +41,6 @@
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
 			<artifactId>mule-sockets-connector</artifactId>
-			<version>1.2.2</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
