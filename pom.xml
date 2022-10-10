@@ -68,7 +68,7 @@
 		<dependency>
 			<groupId>63140ad9-fae8-47b5-a972-6c13b2d2fae7</groupId>
 			<artifactId>salesforce-system-api</artifactId>
-			<version>1.0.0</version>
+			<version>2.0.0</version>
 			<classifier>raml</classifier>
 			<type>zip</type>
 		</dependency>
