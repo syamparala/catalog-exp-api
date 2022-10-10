@@ -26,8 +26,28 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
+				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
-				<configuration/>
+				<configuration>
+					<cloudHubDeployment>
+						<server>${server}</server>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>${muleVersion}</muleVersion>
+						<applicationName>${applicationName}</applicationName>
+						<environment>${environment}</environment>
+						<workerType>${workerType}</workerType>
+						<workers>${workers}</workers>
+						<businessGroupId>${businessGroupId}</businessGroupId>
+						<objectStoreV2>true</objectStoreV2>
+						<properties>
+							<anypoint.platform.client_id>${anypoint.platform.client_id}</anypoint.platform.client_id>
+							<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
+							<anypoint.platform.config.analytics.agent.enabled>true</anypoint.platform.config.analytics.agent.enabled>
+						</properties>
+					</cloudHubDeployment>
+					<classifier>mule-application</classifier>
+					<sharedLibraries />
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
